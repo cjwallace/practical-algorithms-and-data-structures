@@ -9,7 +9,7 @@ class Stack<T> {
     return this.size() === 0;
   }
 
-  pop(): unknown {
+  pop(): T | undefined {
     return this.#items.pop();
   }
 
