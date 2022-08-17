@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std@0.146.0/testing/asserts.ts";
+import { assertEquals } from "../../deps.ts";
 
 import {
   infixToPostfix,
