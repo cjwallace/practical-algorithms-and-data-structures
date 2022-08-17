@@ -11,6 +11,11 @@ I have stuck reasonably close (but certainly not 100%) to the spirit of the Pyth
 ## Stacks
 
 2. [A Stack Implementation](stacks/stack.ts)
-3. [Balanced Parantheses](stacks/examples/balanced-parentheses.ts)
+3. [Balanced Parentheses](stacks/examples/balanced-parentheses.ts)
 4. [Converting Number Bases](stacks/examples/converting-number-bases.ts)
 5. [Infix, Prefix and Postfix Expressions](stacks/examples/infix-prefix-and-postfix-expressions.ts)
+
+## Queues
+
+2. [A Queue Implementation](queues/queue.ts)
+3. [Simulating Hot Potato](queues/examples/hot-potato.ts)
