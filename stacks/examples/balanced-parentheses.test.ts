@@ -3,16 +3,16 @@ import { assertEquals } from "../../deps.ts";
 import isBalanced from "./balanced-parentheses.ts";
 
 Deno.test("Can detect balanced parentheses", () => {
-  assertEquals(true, isBalanced("((()))"));
-  assertEquals(true, isBalanced("{{([][])}()}"));
+  assertEquals(isBalanced("((()))"), true);
+  assertEquals(isBalanced("{{([][])}()}"), true);
 });
 
 Deno.test("Can detect unbalanced parentheses", () => {
-  assertEquals(false, isBalanced("(()"));
-  assertEquals(false, isBalanced("())"));
-  assertEquals(false, isBalanced("{[])"));
+  assertEquals(isBalanced("(()"), false);
+  assertEquals(isBalanced("())"), false);
+  assertEquals(isBalanced("{[])"), false);
 });
 
 Deno.test("Determines empty string as balanced", () => {
-  assertEquals(true, isBalanced(""));
+  assertEquals(isBalanced(""), true);
 });
