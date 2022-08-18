@@ -19,3 +19,8 @@ I have stuck reasonably close (but certainly not 100%) to the spirit of the Pyth
 
 2. [A Queue Implementation](queues/queue.ts)
 3. [Simulating Hot Potato](queues/examples/hot-potato.ts)
+
+## Deques
+
+2. [A Deque Implementation](deques/deque.ts)
+3. [Palindrome Checker](deques/examples/palindrome-checker.ts)
