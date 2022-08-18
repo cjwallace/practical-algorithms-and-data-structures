@@ -24,3 +24,7 @@ I have stuck reasonably close (but certainly not 100%) to the spirit of the Pyth
 
 2. [A Deque Implementation](deques/deque.ts)
 3. [Palindrome Checker](deques/examples/palindrome-checker.ts)
+
+## Lists
+
+2. [An Unordered List Implementation](lists/unordered-list.ts)
