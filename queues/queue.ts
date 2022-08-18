@@ -1,7 +1,7 @@
 class Queue<T> {
   #items: T[];
 
-  constructor(items = []) {
+  constructor(items: T[] = []) {
     this.#items = items;
   }
 

@@ -28,3 +28,10 @@ Deno.test("Dequeuing an item returns the first item enqueued", () => {
   const popped = queue.dequeue();
   assertEquals(popped, "foo");
 });
+
+Deno.test("Queue can be initialized from an array", () => {
+  const queue = new Queue(["foo", "bar", "baz"]);
+  assertEquals(queue.dequeue(), "baz");
+  assertEquals(queue.dequeue(), "bar");
+  assertEquals(queue.size(), 1);
+});

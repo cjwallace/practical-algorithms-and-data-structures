@@ -56,3 +56,10 @@ Deno.test("Popping from the stack removes the last item", () => {
   assertEquals(stack.size(), 1);
   assertEquals(stack.pop(), "foo");
 });
+
+Deno.test("Stack can be initialized from an array", () => {
+  const stack = new Stack(["foo", "bar", "baz"]);
+  assertEquals(stack.pop(), "baz");
+  assertEquals(stack.pop(), "bar");
+  assertEquals(stack.size(), 1);
+});
