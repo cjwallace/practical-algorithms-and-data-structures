@@ -28,3 +28,8 @@ I have stuck reasonably close (but certainly not 100%) to the spirit of the Pyth
 ## Lists
 
 2. [An Unordered List Implementation](lists/unordered-list.ts)
+3. [An Ordered List Implementation](lists/ordered-list.ts)
+
+## Recursion
+
+2. [Calculating the Sum of a List of Numbers](recursion/calculating-the-sum-of-a-list-of-numbers.ts)
