@@ -43,3 +43,4 @@ The numbers refer to the corresponding sections of the [book](https://bradfieldc
 ### Recursion
 
 2. [Calculating the Sum of a List of Numbers](recursion/calculating-the-sum-of-a-list-of-numbers.ts)
+4. [Converting an Integer to Any Base](recursion/converting-an-integer-to-any-base.ts)
