@@ -45,3 +45,4 @@ The numbers refer to the corresponding sections of the [book](https://bradfieldc
 2. [Calculating the Sum of a List of Numbers](recursion/calculating-the-sum-of-a-list-of-numbers.ts)
 4. [Converting an Integer to Any Base](recursion/converting-an-integer-to-any-base.ts)
 5. [Tower of Hanoi](recursion/tower-of-hanoi.ts)
+6. [Dynamic Programming](recursion/dynamic-programming.ts)
